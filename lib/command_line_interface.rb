@@ -1,6 +1,7 @@
 require "pry"
 def welcome
-  puts "Welcome, Sunshine!"
+  # puts out a welcome message here!
+  puts "Morning Sunshine"
 end
 
 def get_character_from_user
