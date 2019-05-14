@@ -1,3 +1,4 @@
+require "pry"
 def welcome
   # puts out a welcome message here!
   puts "Morning Sunshine"
@@ -9,3 +10,4 @@ def get_character_from_user
   user_input = gets.chomp
   return user_input.downcase
 end
+binding.pry
